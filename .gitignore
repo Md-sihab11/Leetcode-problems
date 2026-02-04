@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files (C/C++)
+*.o
+*.obj
+*.so
+*.exe
+*.out
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+*.DS_Store
+
+# Build directories
+build/
+bin/
+debug/
+release/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node / JS
+node_modules/
+dist/

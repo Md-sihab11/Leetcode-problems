@@ -7,7 +7,7 @@ public class Solution1 {
 
     public static int[][] merge(int[][] intervals) {
 
-        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));//duita interval niye kaj korbo amra  
 
         List<int[]> merged = new ArrayList<>();
         int[] prev = intervals[0];

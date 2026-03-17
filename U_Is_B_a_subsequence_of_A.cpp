@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int N, M;
+    cin >> N >> M;
+
+    vector<long long> A(N), B(M);
+
+    for (int i = 0; i < N; i++)
+        cin >> A[i];
+
+    for (int i = 0; i < M; i++)
+        cin >> B[i];
+
+    int j = 0; // pointer for B
+
+    for (int i = 0; i < N && j < M; i++) {
+        if (A[i] == B[j]) {
+            j++;
+        }
+    }
+
+    if (j == M)
+        cout << "YES";
+    else
+        cout << "NO";
+
+    return 0;
+}
